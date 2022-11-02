@@ -4,7 +4,7 @@ const FetchAPI = () => {
     const [ pokie, setPokie] = useState ([])
 
     const fetchData = () => {
-        fetch("https://pokeapi.co/api/v2/pokemon")
+        fetch("https://pokeapi.co/api/v2/pokemon?limit=900")
         .then((response) => {
             return response.json();
         })
