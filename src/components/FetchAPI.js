@@ -19,7 +19,7 @@ const FetchAPI = () => {
     }
     return (
     <div>
-        <h1>FetchAPI</h1>
+        <h1>Pokemon!</h1>
         <button onClick={fetchData}>Pokemon</button>
 
         {
